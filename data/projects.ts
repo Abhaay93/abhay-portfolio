@@ -11,21 +11,30 @@ export type Project = {
 export const projects: Project[] = [
     {
         title: "Pokedex",
-        description: "Automated the process of job application tracking using ai.",
+        description: "Pokedex.",
         imgPath: "/project-images/pokedex.png",
-        techs: ["ReactJS", "NextJS","ExpressJS" , "Shadcn UI", "TailwindCSS", "Python", "MongoDB", "Oauth2"],
-        githubLink: "",
-        liveLink: "",
-        status: 'building'
-    },
-    {
-        title: "Martian Snaps",
-        description: "A platform curating 1000+ leetcode problems with video and text solutions.",
-        imgPath: "/project-images/MartianSnaps.png",
-        techs: ["ReactJS", "NextJS","Shadcn UI", "MagicUI" , "TailwindCSS", "Web Scraping"],
+        techs: ["ReactJS", "NextJS","ExpressJS" , "Shadcn UI", "TailwindCSS", "MongoDB", ],
         githubLink: "",
         liveLink: "",
         status: 'online'
     },
+    {
+        title: "Martian Snaps",
+        description: "Mars rover images.",
+        imgPath: "/project-images/MartianSnaps.png",
+        techs: ["ReactJS", ,"Shadcn UI",   "TailwindCSS", "Nasa API"],
+        githubLink: "",
+        liveLink: "",
+        status: 'online'
+    },
+    {
+        title: "Drowa",
+        description: "excalidraw Clone.",
+        imgPath: "/project-images/drowa.png",
+        techs: ["Websocket", "NextJS","TypeScript" ,  "Supabase", ],
+        githubLink: "",
+        liveLink: "",
+        status: 'building'
+    }
    
 ]
